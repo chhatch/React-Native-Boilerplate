@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a select box 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ededed",
+      "height": 50,
+      "width": "33%",
+    }
+  }
+>
+  <RNCPicker
+    items={
+      Array [
+        Object {
+          "label": "GLOBAL_ADMIN",
+          "testID": undefined,
+          "textColor": undefined,
+          "value": "GLOBAL_ADMIN",
+        },
+        Object {
+          "label": "ADMIN",
+          "testID": undefined,
+          "textColor": undefined,
+          "value": "ADMIN",
+        },
+        Object {
+          "label": "USER",
+          "testID": undefined,
+          "textColor": undefined,
+          "value": "USER",
+        },
+      ]
+    }
+    onChange={[Function]}
+    selectedIndex={2}
+    style={
+      Array [
+        Object {
+          "height": 216,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

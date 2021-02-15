@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testapp-dev-115412-authRole",
+      "UnauthRoleArn": "arn:aws:iam::272725025981:role/amplify-testapp-dev-115412-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::272725025981:role/amplify-testapp-dev-115412-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-testapp-dev-115412-deployment",
+      "UnauthRoleName": "amplify-testapp-dev-115412-unauthRole",
+      "StackName": "amplify-testapp-dev-115412",
+      "StackId": "arn:aws:cloudformation:us-east-2:272725025981:stack/amplify-testapp-dev-115412/0b4b8130-1875-11eb-90dd-02ba0cc26a2a",
+      "AmplifyAppId": "dwmxwpjaxdahi"
+    },
+    "categories": {
+      "auth": {
+        "testapp0fa21983": {}
+      }
+    }
+  }
+}

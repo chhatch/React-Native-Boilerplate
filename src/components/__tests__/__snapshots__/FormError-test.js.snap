@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not render an error 1`] = `
+<Text
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+   
+</Text>
+`;
+
+exports[`renders an error 1`] = `
+<Text
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+  Snapshot test!
+</Text>
+`;

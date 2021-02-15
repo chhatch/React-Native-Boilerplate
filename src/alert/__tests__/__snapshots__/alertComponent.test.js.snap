@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component should not render alerts if none 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#000",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Alert component should render alerts if exist 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "marginTop": 63,
+        "position": "absolute",
+        "width": 750,
+        "zIndex": 999,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "backgroundColor": "green",
+          "fontSize": 20,
+        },
+      ]
+    }
+  >
+    test0
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "backgroundColor": "green",
+          "fontSize": 20,
+        },
+      ]
+    }
+  >
+    test1
+  </Text>
+</View>
+`;

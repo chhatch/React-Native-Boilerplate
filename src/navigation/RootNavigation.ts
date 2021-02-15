@@ -1,0 +1,13 @@
+// RootNavigation.js
+//this helps us navigate from thunk
+//https://reactnavigation.org/docs/navigating-without-navigation-prop/
+
+import * as React from 'react';
+
+export const navigationRef = React.createRef();
+
+export function navigate(name: string, params = {}) {
+  navigationRef.current.navigate(name, params);
+}
+
+// add other navigation functions that you need and export them
